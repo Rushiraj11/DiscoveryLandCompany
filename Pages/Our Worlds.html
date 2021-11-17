@@ -5,165 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our World</title>
+
+<link rel="stylesheet" href="../Css/header.css">
+<link rel="stylesheet" href="../Css/ourworlds.css">
+<link rel="stylesheet" href="../Css/footer.css">
 </head>
-<style>
-    body, html {
-    margin: 0;
-    padding: 0;
-   background-color: black;
-}
-
-* {
-    box-sizing: border-box;
-}
-.header{
-    display: flex;
-    flex-direction: row;
-    margin: 3vh 5vw;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.logo{
-    display: flex;
-    justify-content: center;
-}
-
-.logo > img {
-    width: 100%;
-}
-
-.logo-name{
-    padding-left: 12px;
-    display: flex;
-    flex-direction: column;
-    font-family:Arial;
-}
-
-.logo-text1{
-    font-size: 35px;
-    color: whitesmoke;
-    text-align: center;
-}
-.logo-text2{
-    text-transform: uppercase;
-    font-size: 15px;
-    color: whitesmoke;
-    text-align: center;
-}
-
-.nav {
-    display: flex;
-}
-
-.options{
-    text-align: center;
-    display: flex;
-    margin: 3vh 5vw ;
-}
-
-.nav > img {
-    width: 4%;
-    height: 80%;
-    padding-top: 0.5vw;
-}
-
-.options > div {
-    list-style-type:none;
-    padding-right: 4vw;
-    font-size: calc(15px + 0.3vw);
-    min-width: 10vw;
-}
-
-.options > div {
-    text-decoration: none;
-    color: whitesmoke;
-}
-.main-content {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
-    width: 100%;
-    grid-gap: 20px 20px;
-    padding:5vw 20px 5vw 20px;
-}
-
-.card{
-    display: flex;
-    flex-direction: column;
-}
-
-.card > img {
-    height: 100%;
-    width: 100%;
-}
-
-.first-line {
-    color: whitesmoke;
-    font-size: 12px;
-    margin-bottom: 0;
-    text-transform: uppercase;
-}
-
-.second-line {
-    color: #777777;
-    margin: 0;
-    text-transform: capitalize;
-}
-.footer{
-    background-color: #161f1e;
-    display: flex;
-    flex-direction: column;
-    padding: 4vw 6vw;
-}
-
-.footer-bottom {
-    margin-bottom: 3vw;
-    color:hsla(0,0%,100%,.75);
-}
-
-.footer-top{
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-data > span {
-    padding-bottom: 15px;
-}
-
-.footer-data{
-    margin-top: 0;
-    display: flex;
-    flex-wrap: wrap;
-    color: whitesmoke;
-}
-
-.footer-content{
-    margin-left: 8vw;
-}
-
-</style>
 
 <body>
-    <header>
-        <div class="header">
-            <div class="logo">
-                <div class="logo-name">
-                    <span class="logo-text1">Discovery </span>
-                    <span class="logo-text2">land company</span> 
-                </div>
-            </div>
-            <div class="nav">
-                <div class="options">
-                    <div>About DLC</div>
-                    <div>Our Worlds</div>
-                    <div>Experiences</div>
-                    <div>Gallery</div>
-                    <div>Press</div>  
-        </div>
-        
-    </header>
-    <div class="main-content">
+    <div id="header"></div>
+       <script src="../js/header.js"></script> 
+          <div class="main-content">
         <div class="card">
             <img src="https://dxaurk9yhilm4.cloudfront.net/images/8812/DJI_0265_RET_2_210405_212842_d169f13de117664acdaa1543841b7c16.jpg"> 
             <p class="first-line">North shore preserve</p>
@@ -290,34 +141,7 @@
             <p class="second-line">scottsdale, arizona</p>
         </div>
     </div>
-        <div class="footer">
-            <div class="footer-top">
-                <div>Logo</div>
-                <div class="footer-data">
-                    <div class="footer-content">
-                        <p style="color:hsla(0,0%,100%,.75);">GET IN TOUCH</p>
-                        <p>(480)634-5200</p>
-                        <p>mail@discoverylandco.com</p>
-                    </div>
-                    <div class="footer-content">
-                        <p>About DLC</p>
-                        <p>Our Worlds</p>
-                        <p>Experiences</p>
-                        <p>Gallery</p>
-                        <p>Press</p>
-                    </div>
-                    <div class="footer-content">
-                        <p>Magazine</p>
-                        <p>Careers</p>
-                        <p>Foundation</p>
-                        <p>Company</p>
-                        <p>Contact</p>
-                        <p>Privacy</p>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <span>@ DiscoveryLand Company. All rights reserved</span>
-            </div>
+    <div id="footer"></div>
+  <script src="../js/footer.js"></script>
 </body>
 </html>
