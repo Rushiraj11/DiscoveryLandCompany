@@ -62,7 +62,7 @@ body, html {
     background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/287/background_imagev2_3580431e48aedf97dcedf972d1481942.jpg");
     height: 130vh;
     display: flex;
-    padding: 10vw 10vw;
+    padding: 8vw 10vw;
 }
 .left-side-content{
     display: flex;
@@ -74,13 +74,19 @@ body, html {
 }
 
 .left-side-image{
-    width: 70%;
+    width: 55%;
     height: 100%;
+    padding: 0em;
+    margin-top:5%;
 }
 
 .right-side-image{
-    width: 100%;
-    height: 100%;
+    background-color: #f3f3f3;
+    top: 0;
+    left: 0;
+    width:120%;
+    height:80%;
+    margin:-20%;
 }
 
 .welcome-text {
@@ -95,17 +101,19 @@ body, html {
 }
 
 .ourworld-text {
-    margin: 0px 0px;
-    padding: 0px 0px;
+    margin: 0px 5px;
+    padding: 0px px;
     font-size: 50px;
     font-weight: lighter;
     line-height: 1.1;
-    transform: translate(0px, -2.32px);
 }
 
 .first-content-text {
-padding:50px ;
-
+padding:35px 10px;
+margin:5px 1px;
+color: #777;
+line-height: 2;
+font-size:110%;
 }
 .second-content{
     background-image: linear-gradient(white, #f3f3f3);
@@ -120,18 +128,19 @@ padding:50px ;
 }
 
 .second-content-header-left > h1{
-    font-size: calc(20px + 3vw);
+    font-size: 70px;
     margin-bottom: -25px;
     font-weight: normal;
     margin-top: 0;  
 }
 
 .second-content-header-left > h2{
-    font-size: calc(15px + 3vw);
-    margin-top: -25px;
+    font-size: 50px;
     font-weight: lighter;
     font-family: 'Zen Kaku Gothic New', sans-serif;
     margin-bottom: 30px;
+    margin-top: 20px;
+
 }
 
 .second-content-body {
@@ -210,23 +219,28 @@ padding:50px ;
     font-size: calc(15px + 2.5vw);
     margin-top: -5px;
     font-weight: lighter;
-    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: sans-serif;
     margin-bottom: 30px;
+    margin-top: 8px;
 }
 
 .third-content-header > p {
-    margin: 5px 0;
-    -webkit-tap-highlight-color: transparent;
+    margin: 5px;
+    color: #777777;
+    display: block;
+    text-align: start;
+    opacity: 1;
+    font-size: 20px;
 }
 
 .third-content-body{
-    height: 75%;
+    height: 84%;
 }
 .third-content-body-first-image{
-    width: 80%;
+    width: 77.3%;
     object-fit: fill;
     position: absolute;
-    z-index: 0;
+    
 }
 
 .third-content-body-div{
@@ -255,14 +269,25 @@ padding:50px ;
     height: 100%;
     margin-top: -4vw;
 }
+.map-link{
+    text-align: center;
+    display: flex;
+    margin: 3vh 5vw ;
+}
+
+.map-dropdown{
+    list-style-type:none;
+    font-size: 20px;
+    min-width: 10px;
+    color:black;
+    margin-left:90px;
+    font-family: Cambria;
+}
 
 .arrow{
     height :8%;
     margin: 3vw 5vw; 
     display: flex;
-}
-.rotate{
-    transform: rotate(180deg);
 }
 
 .weather{
@@ -285,13 +310,17 @@ padding:50px ;
 .location-header{
     height: 20%;
     color: whitesmoke;
-    margin: 3vw 5vw;
+    margin: 1vw 5vw;
+}
+.location-header >p{
+    color: #777777
 }
 
 .location-header > h3{
-    font-size: calc(15px + 2.5vw);
+    font-size:26px;
+    flex-direction: column;
     font-family: 'Zen Kaku Gothic New', sans-serif;
-    margin-top: -5px;
+    
     font-weight: normal;
 }
 
@@ -309,27 +338,26 @@ padding:50px ;
     color: whitesmoke;
 }
 
-.forth-content{
+.fourth-content{
     display: flex;
-    height: 80vh;
-    margin-top: -3vw;
-    z-index: 100;
+   align-items: center;
 }
 .image-container{
-    width: 33%;
+    height:65em;
+    width:85em;
 }
 
 .image-container > img {
     width: 100%;
     height: 100%;
+    
 }
 
 .image-container > span {
     position: absolute;
-    margin: auto;
-    font-size: calc(15px + 2.5vw);
-    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size:50px;
+    font-family:calibri;
     color: whitesmoke;
-    margin-top: 35vh;
-    margin-left: 8vw;
+    margin-top: 63vh;
+    margin-left:8vw;
 }
