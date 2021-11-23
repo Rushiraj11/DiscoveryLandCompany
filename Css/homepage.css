@@ -32,14 +32,11 @@ body, html {
 
 #header{
     width: 100vw;
-    top:0;
-    left: 0;
+    
 }
 
 .video {
     position: absolute;
-    top: 0;
-    left: 0;
     object-fit: cover;
     width: 100vw;
     height: 100vh;
@@ -152,7 +149,7 @@ line-height: 2;
 
 
 .photos > article >img{
-    height:29em;
+    height:35em;
     width:35em;
     padding: 0 10px;
     z-index: -1;
