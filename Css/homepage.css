@@ -355,3 +355,32 @@ line-height: 2;
     margin-top: 63vh;
     margin-left:8vw;
 }
+@media (max-width: 1080px) {
+    .main-header-content{
+        display: flex;
+        flex-direction: column;
+}}
+
+@media (max-width: 1024px) {
+    .main-header-content{
+        display: flex;
+        flex-direction: column;
+}}
+       
+@media (max-width: 960px) {
+    .main-header-content{
+        display: flex;
+        flex-direction: column;
+}}
+@media (max-width: 760px) {
+    .main-header-content{
+        display: flex;
+        flex-direction: column;
+}}
+
+@media (max-width: 560px) {
+    .main-header-content{
+     display: flex;
+     flex-direction: column;
+}}
+       
