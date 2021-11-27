@@ -92,9 +92,9 @@ body, html {
     font-weight: lighter;
 }
 
-.section-one-header{
+.section-one-header>span{
     color: #111;
-    font-size:20px;
+    font-size:30px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
     padding: 1vw 5vw;
@@ -158,3 +158,34 @@ body, html {
     font-size:20px;
 
 }
+@media (max-width: 1080px) {
+    .main-header{
+        display: flex;
+        flex-direction: column;
+
+}}
+
+@media (max-width: 1024px) {
+    .main-header{
+        display: flex;
+        flex-direction: column;
+}}
+       
+@media (max-width: 960px) {
+    .main-header{
+        display: flex;
+        flex-direction: column;
+}}
+@media (max-width: 760px) {
+    .main-header {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 560px) {
+    .main-header{
+     display: flex;
+     flex-direction: column;
+}}

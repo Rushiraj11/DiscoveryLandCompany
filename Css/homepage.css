@@ -27,7 +27,8 @@ body, html {
 }
 .second-line{
     font-family: sans-serif;
-    margin-top: -50px;
+    margin-top: -70px;
+    line-height:2;
 }
 
 #header{
@@ -59,7 +60,7 @@ body, html {
     background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/287/background_imagev2_3580431e48aedf97dcedf972d1481942.jpg");
     height: 130vh;
     display: flex;
-    padding: 8vw 10vw;
+    padding: 5vw 9vw;
 }
 .left-side-content{
     display: flex;
@@ -72,15 +73,16 @@ body, html {
 
 .left-side-image{
     height: 400px;
-    width: 600px;
-    margin-top: 90px;
+    width: 500px;
+    margin-top: 80px;
 }
 
 .right-side-image{
     height: 880px;
     width: 600px;
     padding-right: 10px;
-    padding-top: 100px;
+    padding-top: 80px;
+   
 }
 
 .welcome-text {
@@ -104,8 +106,8 @@ body, html {
 
 .first-content-text {
 color: #777;
-font-size:18px;
-padding:20px;
+font-size:16px;
+padding:15px;
 margin-top: 30px;
 line-height: 2;
 }
@@ -206,7 +208,7 @@ line-height: 2;
     font-size: calc(20px + 2.5vw);
     margin-bottom: -20px;
     font-weight: normal;
-    margin-top: 0; 
+    margin-top: 8vh; 
 }
 
 .third-content-header > h2{

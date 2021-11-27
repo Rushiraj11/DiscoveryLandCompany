@@ -10,6 +10,7 @@
 .logo{
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 .logo > img {
@@ -49,4 +50,50 @@
     font-size: 20px;
     min-width: 12px;
     color: whitesmoke;
+    cursor: pointer;
 }
+
+@media only screen and (max-width: 1080px) {
+    .logo-name{
+        padding-left: 12px;
+        display: flex;
+        flex-direction: column;
+        font-family:Arial;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    .logo-name{
+        padding-left: 12px;
+        display: flex;
+        flex-direction: column;
+        font-family:Arial;
+    }}
+       
+@media (max-width: 960px) {
+    .logo-name{
+        padding-left: 12px;
+        display: flex;
+        flex-direction: column;
+        font-family:Arial;
+    }}
+@media (max-width: 760px) {
+    .header{
+        display: flex;
+        flex-direction: row;
+        margin: 4vh 5vw;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }}
+
+@media (max-width: 560px) {
+    .header{
+        display: flex;
+        flex-direction: row;
+        margin: 4vh 5vw;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }}
