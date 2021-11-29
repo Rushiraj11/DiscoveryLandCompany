@@ -29,3 +29,6 @@
 .footer-content{
     margin-left: 9vw;
 }
+.footer-content > p{
+    cursor: pointer;
+}

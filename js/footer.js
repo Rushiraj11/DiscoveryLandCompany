@@ -9,11 +9,11 @@ document.querySelector('#footer').innerHTML = `
             <p>mail@discoverylandco.com</p>
         </div>
         <div class="footer-content">
-            <p>About DLC</p>
-            <p>Our Worlds</p>
-            <p>Experiences</p>
-            <p>Gallery</p>
-            <p>Press</p>
+            <p onclick="window.location ='../Pages/AboutDLC.html'">About DLC</p>
+            <p onclick="window.location ='../Pages/Our Worlds.html'">Our Worlds</p>
+            <p onclick="window.location ='../Pages/Experiences.html'">Experiences</p>
+            <p onclick="window.location ='../Pages/Gallery.html'">Gallery</p>
+            <p onclick="window.location ='../Pages/Press.html'">Press</p>
         </div>
         <div class="footer-content">
             <p>Magazine</p>
